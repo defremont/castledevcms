@@ -47,9 +47,7 @@
     },
     "scripts": {
         "post-create-project-cmd": "bin/grav install",
-		"post-install-cmd": [
-		"bin/plugin git-sync sync"
-		],
+		"post-install-cmd": "bin/plugin git-sync sync",
         "test": "vendor/bin/codecept run unit",
         "test-windows": "vendor\\bin\\codecept run unit"
     },
