@@ -1,0 +1,11 @@
+email: andre.def93@gmail.com
+fullname: 'André Defrémont'
+title: Admin
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$GFzOFuPTcVsCjQqDv31/7OcqsfFgLxG5Z.7ujuiIE4Y5fHntONhTu
